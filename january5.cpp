@@ -19,7 +19,7 @@ int lengthOfLIS(vector<int>& nums)
         {
             if (nums[j] < nums[i])
             {
-                counter[i]=(max(counter[j]+1,counter[i]));
+                counter[i] = max(counter[j]+1,counter[i]);
             }            
         }        
     }
