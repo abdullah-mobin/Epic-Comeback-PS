@@ -11,7 +11,7 @@ using namespace std;
 
 void soln()
 {
-    cout << "comeback" << endl;
+    cout << "recharged" << endl;
 }
 int main()
 {
